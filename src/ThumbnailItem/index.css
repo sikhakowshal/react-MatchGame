@@ -1,0 +1,28 @@
+.thumbnail-item {
+  height: 95px;
+  width: 95px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-item {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+}
+
+.thumbnail-img {
+  background-size: cover;
+  width: 100%;
+}
+
+.button {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
